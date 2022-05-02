@@ -67,11 +67,11 @@ loop do
     puts "Player One has won the game"
     break
   end
-  turn += 1
   if turn == 9
     puts "It's a tie!"
     break
   end
+  turn += 1
   puts "Turn no.#{turn}"
   puts "Player Two, choose a cell"
   while true do  
